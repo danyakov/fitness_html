@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Fitness</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="app">
+<div class="nav_full">
+    <div class="logotype"></div>
+    <div class="menu_bar"><a href="" @click.prevent="display=!display"><i class="fas fa-bars"></i></a></div>
+    <nav >
+            <ul :class="display ? 'active' : ''">
+             <li class="breakpoint_square"></li>
+             <li><a href="">About</a></li>
+             <li><a href="">How it works</a></li>
+             <li><a href="">Services</a></li>
+             <li><a href="">FAQ</a></li>
+             <li><a href="">Contact</a></li>
+            </ul>
+    </nav>
+</div>
+    <div class="moto">
+        <h3>Fitness in a can<span style="color:#a2ca28;">/</span></h3>
+        <h4>Yes you can<span style="color:#fd634e;">/</span></h4>    </div>
+    <div class="red_band"></div>
+
+</header>
+
+<section id="description">
+
+<div class="wr">
+    <div class="details">
+        <div style="background-image: url('images/icon_resources.png');">
+            <h3>Resources</h3>
+            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+            <a href="">Explore more</a>
+        </div>
+
+        <div style="background-image: url('images/icon_training.png');">
+            <h3>Training and Funding</h3>
+            <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
+            <a href="">Explore more</a>
+        </div>
+        <div style="background-image: url('images/icon_connect.png');">
+            <h3>Connect</h3>
+            <p>Easily manage your inspiration and work-in-progress by dragging projects and sharable client groups.</p>
+            <a href="">Explore more</a>
+        </div>
+        <div style="background-image: url('images/icon_communicate.png');">
+            <h3>Communicate</h3>
+            <p>Easily manage your inspiration and work-in-progress by dragging images. Easily manage your inspiration and work-in-progress by dragging images.  </p>
+            <a href="">Explore more</a>
+        </div>
+    </div>
+    <div class="articles">
+        <div class="article-1 hover_block">
+            <div class="article_content">
+                <h6>it is all about</h6>
+                <h3>Fitness First</h3>
+                <span class="icon"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </p>
+                <a href="">Read More</a>
+            </div>
+            <div class="article_photo">
+                <span class="users">
+                    <span class="red_text">Active Users</span> (34)
+                </span>
+            </div>
+        </div>
+        <div class="article-2 hover_block">
+                <div class="article_photo">
+                <span class="users">
+                    <span class="red_text">Products Used</span> (658)
+                </span>
+            </div>
+            <div class="article_content">
+                <h6>Love your</h6>
+                <h3>your body</h3>
+                <span class="icon"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </p>
+                <a href="">Read More</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</section>
+<section id="announces">
+    <div class="wr">
+        <div class="section-1">
+        <div class="announce-1 hover_block">
+            <div class="a1-photo">
+            </div>
+            <div class="a1-content">
+                <h6>Track your</h6>
+                <h3>Lifestyle</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </p>
+            </div>
+        </div>
+        <div class="announce-2 hover_block">
+            <div class="a2-photo">
+                <div class="info">
+                    <span>24th august</span>
+                    <span>Health & Fitness</span>
+                </div>
+            </div>
+            <div class="a2-content">
+                <h6>Enjoy and relax</h6>
+                <h3>Summer of fun</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                </p>
+            </div>
+        </div>
+        <div class="announce-3 hover_block">
+                <div class="a1-photo">
+                </div>
+                <div class="a1-content">
+                    <h6>Be closer</h6>
+                    <h3>Get involved in yourself</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+            </div>
+        <div class="announce-4 hover_block">
+                <div class="a2-photo">
+                </div>
+                <div class="a2-content">
+                    <h6>Improve your</h6>
+                    <h3>Eating habbits</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="launch">
+    <div class="wr">
+        <h3>We launch leaders with big ideas</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci illo nisi tenetur?</p>
+    </div>
+</section>
+
+<footer>
+
+    <div class="wr">
+        <div class="credits">
+        <div><h5>Resources</h5>
+        <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p></div>
+        <div><h5>About us</h5>
+        <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group.</p></div>
+        <div class="social"><h5>Stay in touch</h5>
+            <img src="images/facebook.png" alt="Facebook"><img src="images/twitter.png" alt="Twitter"><img src="images/youtube.png" alt="Youtube"><img src="images/linkedin.png" alt="LinkedIn">
+        </div>
+        </div>
+
+        <div class="form">
+
+                <input type="text" placeholder="Your Name" class="name input">
+                <input type="text" placeholder="Your Email" class="email input">
+                <button class="input">Join Newsletter</button>
+
+        </div>
+    </div>
+
+
+
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            display: false
+        }
+    })
+</script>
+</body>
+</html>
